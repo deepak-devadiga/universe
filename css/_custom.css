@@ -1,0 +1,454 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('raleway.semibold.ttf'); /* IE9 Compat Modes */
+  src: url('raleway.semibold.ttf') format('embedded-opentype'), /* IE6-IE8 */
+       url('raleway.semibold.ttf') format('woff2'), /* Super Modern Browsers */
+       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('raleway.semibold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Lauren';
+  src: url('Lauren-Regular.ttf'); /* IE9 Compat Modes */
+  src: url('Lauren-Regular.ttf') format('embedded-opentype'), /* IE6-IE8 */
+       url('Lauren-Regular.ttf') format('woff2'), /* Super Modern Browsers */
+       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('Lauren-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+@font-face {
+  font-family: 'Typewriter';
+  src: url('TravelingTypewriter.ttf'); /* IE9 Compat Modes */
+  src: url('TravelingTypewriter.ttf') format('embedded-opentype'), /* IE6-IE8 */
+       url('TravelingTypewriter.ttf') format('woff2'), /* Super Modern Browsers */
+       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('TravelingTypewriter.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskannada.css);
+
+ #page1_content{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vw;
+    width: 100%;
+    display: block;
+}
+ #aboutme{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vw;
+    width: 100%;
+    display: block;
+}
+
+
+.pageLoader{
+    width: 100px;
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    top: 40%;
+    position: relative;
+}
+.loaderDailog{
+    width: 6%;
+    position: relative;
+    height: 80%;
+}
+
+
+.loader img{
+	width:15%;
+}
+.loader {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 120;
+	background: #fff;
+	margin: 40% 10%;
+	/*border: 3px solid #777;*/
+	width: 80%;
+	text-align: center;
+	font-size:120%;
+}
+#left{
+    -webkit-clip-path: polygon(0 0, 0 100vh, 100% 100vh);
+    clip-path: polygon(0 0, 0 100vh, 100% 100vh);
+    background: #588C73;
+	opacity:0.9
+}
+
+#page1_content, #aboutme{
+	display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    -webkit-animation: fadeInUp .6s .5s ease both;
+    -moz-animation: fadeInUp .6s .5s ease both;
+    -ms-animation: fadeInUp .6s .5s ease both;
+    -o-animation: fadeInUp .6s .5s ease both;
+    animation: fadeInUp .6s .5s ease both;
+	opacity:0.9
+}
+#left:hover, #right:hover{
+	opacity:1
+}
+#page1_content > h2 > span:nth-child(1){
+	 font-family: 'Raleway', sans-serif;
+	 font-size: 2vw;
+	 color:#660000;
+	 font-weight:bold;
+}
+#page1_content > h2 > span:nth-child(3){
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5vw;
+	color:#660000;
+}
+#page1_content > h2 > span:nth-child(2){
+	font-family: 'Lauren';
+	font-size:3.9vw;
+	color:#588C73
+}
+
+#content{
+	padding:40px 180px 40px 180px;
+height: 100vh;
+    width: 100%;	
+}
+
+.bio img{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.bio img:hover{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+	-webkit-animation: fadeInUp .6s .5s ease both;
+    -moz-animation: fadeInUp .6s .5s ease both;
+    -ms-animation: fadeInUp .6s .5s ease both;
+    -o-animation: fadeInUp .6s .5s ease both;
+    animation: fadeInUp .6s .5s ease both;
+}
+
+
+
+.center{
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height:150px;
+}
+
+
+.myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+	margin-top:5px;
+}
+.myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+
+
+
+#page1_content{
+	background-color:#f6f6f6 !important;
+}
+
+
+
+
+
+
+
+
+
+/*=========================
+  Icons
+ ================= */
+
+/* footer social icons */
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+	background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+a {
+ background-color: #D3D3D3;   
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-device-width: 480px) {
+	
+	#designedby{
+		text-align:center !important;
+		margin-left:15% !important;
+		margin-right:15% !important;
+	}
+	#designedby span{
+		font-size:45% !important;
+		margin-top:45% !important;
+	}
+	#designedby span:nth-child(2){
+		font-size:100% !important;
+	}
+	#designedby{
+		margin-top:10% !important;
+	}
+	#desn span:nth-child(1){
+		font-size:65% !important;
+	}
+	#desn span:nth-child(2){
+		font-size:100% !important;
+	}
+	#page1_content{ 
+		position: absolute !important;
+		top: 0 !important;
+		left: 0 !important;
+		height: 100% !important;
+		width: 100% !important;
+		display: block !important;
+	}
+	#aboutme{ 
+		margin-top:100vh !important;
+		height: 100% !important;
+		width: 100% !important;
+		display: block !important;
+	}
+	.socialIco{
+		margin-top:3% !important;
+	}
+	.bio img{
+		height:280px !important;
+		width:280px !important;
+		margin-top:30px !important; 
+	}
+	.social-network > li > a{
+		height:42px !important;
+		width:42px !important;
+	}
+	.social-network > li > a > i{
+		height:10px !important;
+		width:10px !important;
+		margin-top: -5px !important;
+		margin-left: -3px !important;
+	}
+	
+	
+	.social-circle li a:hover i, .triggeredHover {
+		-moz-transform: rotate(0deg) !important;
+		-webkit-transform: rotate(0deg) !important;
+		-ms--transform: rotate(0deg) !important;
+		transform: rotate(0deg) !important;
+	}
+	.center{
+		 display: block;
+		margin-left: auto;
+		margin-right: auto;
+		height:50px;
+	}
+	
+	.myImg {
+		border-radius: 5px;
+		cursor: pointer;
+		transition: 0.3s;
+		margin-top:20px;
+	}
+ 
+ 
+ 
+#content{
+	padding:40px 40px 40px 40px;
+height: 100%;
+    width: 100%;	
+}
+.loaderDailog{
+    width: 30% !important;
+    position: relative !important;
+    height: 80%;
+	margin-left:auto !important;
+	margin-right:auto !important;
+}
+
+}
+
+.forefront-element {
+    -webkit-transform: translateZ(999px) scale(.7);
+    transform: translateZ(999px) scale(.7);
+    z-index: 1;
+  }
+
+  .base-element {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: 4;
+  }
+
+  .background-element {
+    -webkit-transform: translateZ(-999px) scale(2);
+    transform: translateZ(-999px) scale(2);
+    z-index: 3;
+  }
