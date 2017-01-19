@@ -1,7 +1,7 @@
 body {
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
-	
+	background:url(images/Star-field-8-with-nebulae.JPG);
 }
 @font-face {
     font-family: Josefin Sans bold;
@@ -43,9 +43,7 @@ body {
 }
 
 
-.container{
-	background-image:url(images/Star-field-8-with-nebulae.JPG);
-}
+
 #loader{
 	position: absolute;
   top: 50%;
