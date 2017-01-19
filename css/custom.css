@@ -1,7 +1,7 @@
 body {
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
-	background:url(images/Star-field-8-with-nebulae.JPG);
+	/* background:url(images/Star-field-8-with-nebulae.JPG); */
 }
 @font-face {
     font-family: Josefin Sans bold;
@@ -42,7 +42,13 @@ body {
 				margin-left: -50px;
 }
 
-
+#contain{
+	/* background-image:url("../images/Star-field-8-with-nebulae.JPG"); */
+	 background: url('../images/Star-field-8-with-nebulae.JPG') no-repeat center center fixed; 
+      height:100vh;
+	  width:100%
+	 
+}
 
 #loader{
 	position: absolute;
