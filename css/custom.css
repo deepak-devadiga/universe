@@ -44,7 +44,7 @@ body {
 
 
 .container{
-	background:url(images/Star-field-8-with-nebulae.JPG);
+	background-image:url(images/Star-field-8-with-nebulae.JPG);
 }
 #loader{
 	position: absolute;
