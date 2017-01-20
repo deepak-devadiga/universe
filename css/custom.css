@@ -85,11 +85,11 @@ border-radius:50%
     left: 52%;
     top: 54%;
 	z-index:-1
-    -webkit-animation: myOrbit 10s linear infinite; /* Chrome, Safari 5 */
-       -moz-animation: myOrbit 10s linear infinite; /* Firefox 5-15 */
-         -ms-animation: myOrbit 10s linear infinite; /* Opera 12+ */
-         -o-animation: myOrbit 10s linear infinite; /* Opera 12+ */
-            animation: myOrbit 10s linear infinite; /* Chrome, Firefox 16+, 
+    -webkit-animation: myOrbit 20s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbit 20s linear infinite; /* Firefox 5-15 */
+         -ms-animation: myOrbit 20s linear infinite; /* Opera 12+ */
+         -o-animation: myOrbit 20s linear infinite; /* Opera 12+ */
+            animation: myOrbit 20s linear infinite; /* Chrome, Firefox 16+, 
                                                       IE 10+, Safari 5 */
     
     
@@ -132,11 +132,11 @@ border-radius:50%
     left: 52%;
     top: 54%;
 	z-index:-1
-    -webkit-animation: myOrbit1 14s linear infinite; /* Chrome, Safari 5 */
-       -moz-animation: myOrbit1 14s linear infinite; /* Firefox 5-15 */
-       -ms-animation: myOrbit1 14s linear infinite; /* Firefox 5-15 */
-         -o-animation: myOrbit1 14s linear infinite; /* Opera 12+ */
-            animation: myOrbit1 14s linear infinite; /* Chrome, Firefox 16+, 
+    -webkit-animation: myOrbit1 28s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbit1 28s linear infinite; /* Firefox 5-15 */
+       -ms-animation: myOrbit1 28s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbit1 28s linear infinite; /* Opera 12+ */
+            animation: myOrbit1 28s linear infinite; /* Chrome, Firefox 16+, 
                                                       IE 10+, Safari 5 */
     
     
@@ -180,11 +180,11 @@ border-radius:50%
     left: 52%;
     top: 54%;
 	z-index:-1
-    -webkit-animation: myOrbit2 16s linear infinite; /* Chrome, Safari 5 */
-       -moz-animation: myOrbit2 16s linear infinite; /* Firefox 5-15 */
-       -ms-animation: myOrbit2 16s linear infinite; /* Firefox 5-15 */
-         -o-animation: myOrbit2 16s linear infinite; /* Opera 12+ */
-            animation: myOrbit2 16s linear infinite; /* Chrome, Firefox 16+, 
+    -webkit-animation: myOrbit2 32s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbit2 32s linear infinite; /* Firefox 5-15 */
+       -ms-animation: myOrbit2 32s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbit2 32s linear infinite; /* Opera 12+ */
+            animation: myOrbit2 32s linear infinite; /* Chrome, Firefox 16+, 
                                                       IE 10+, Safari 5 */
     
     
@@ -227,11 +227,11 @@ border-radius:50%
     left: 52%;
     top: 54%;
 	z-index:-1
-    -webkit-animation: myOrbit3 18s linear infinite; /* Chrome, Safari 5 */
-       -moz-animation: myOrbit3 18s linear infinite; /* Firefox 5-15 */
-       -ms-animation: myOrbit3 18s linear infinite; /* Firefox 5-15 */
-         -o-animation: myOrbit3 18s linear infinite; /* Opera 12+ */
-            animation: myOrbit3 18s linear infinite; /* Chrome, Firefox 16+, 
+    -webkit-animation: myOrbit3 36s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbit3 36s linear infinite; /* Firefox 5-15 */
+       -ms-animation: myOrbit3 36s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbit3 36s linear infinite; /* Opera 12+ */
+            animation: myOrbit3 36s linear infinite; /* Chrome, Firefox 16+, 
                                                       IE 10+, Safari 5 */
     
     
@@ -274,11 +274,11 @@ border-radius:50%
     left: 52%;
     top: 54%;
 	z-index:-1
-    -webkit-animation: myOrbit4 22s linear infinite; /* Chrome, Safari 5 */
-       -moz-animation: myOrbit4 22s linear infinite; /* Firefox 5-15 */
-       -ms-animation: myOrbit4 22s linear infinite; /* Firefox 5-15 */
-         -o-animation: myOrbit4 22s linear infinite; /* Opera 12+ */
-            animation: myOrbit4 22s linear infinite; /* Chrome, Firefox 16+, 
+    -webkit-animation: myOrbit4 44s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbit4 44s linear infinite; /* Firefox 5-15 */
+       -ms-animation: myOrbit4 44s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbit4 44s linear infinite; /* Opera 12+ */
+            animation: myOrbit4 44s linear infinite; /* Chrome, Firefox 16+, 
                                                       IE 10+, Safari 5 */
     
     
@@ -321,11 +321,11 @@ border-radius:50%
     left: 52%;
     top: 54%;
 	z-index:-1
-    -webkit-animation: myOrbit5 26s linear infinite; /* Chrome, Safari 5 */
-       -moz-animation: myOrbit5 26s linear infinite; /* Firefox 5-15 */
-       -ms-animation: myOrbit5 26s linear infinite; /* Firefox 5-15 */
-         -o-animation: myOrbit5 26s linear infinite; /* Opera 12+ */
-            animation: myOrbit5 26s linear infinite; /* Chrome, Firefox 16+, 
+    -webkit-animation: myOrbit5 52s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbit5 52s linear infinite; /* Firefox 5-15 */
+       -ms-animation: myOrbit5 52s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbit5 52s linear infinite; /* Opera 12+ */
+            animation: myOrbit5 52s linear infinite; /* Chrome, Firefox 16+, 
                                                       IE 10+, Safari 5 */
     
     
@@ -368,11 +368,11 @@ border-radius:50%
     left: 52%;
     top: 54%;
 	z-index:-1
-    -webkit-animation: myOrbit6 30s linear infinite; /* Chrome, Safari 5 */
-       -moz-animation: myOrbit6 30s linear infinite; /* Firefox 5-15 */
-       -ms-animation: myOrbit6 30s linear infinite; /* Firefox 5-15 */
-         -o-animation: myOrbit6 30s linear infinite; /* Opera 12+ */
-            animation: myOrbit6 30s linear infinite; /* Chrome, Firefox 16+, 
+    -webkit-animation: myOrbit6 60s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbit6 60s linear infinite; /* Firefox 5-15 */
+       -ms-animation: myOrbit6 60s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbit6 60s linear infinite; /* Opera 12+ */
+            animation: myOrbit6 60s linear infinite; /* Chrome, Firefox 16+, 
                                                       IE 10+, Safari 5 */
     
     
@@ -415,11 +415,11 @@ border-radius:50%
     left: 52%;
     top: 54%;
 	z-index:-1
-    -webkit-animation: myOrbit7 32s linear infinite; /* Chrome, Safari 5 */
-       -moz-animation: myOrbit7 32s linear infinite; /* Firefox 5-15 */
-       -ms-animation: myOrbit7 32s linear infinite; /* Firefox 5-15 */
-         -o-animation: myOrbit7 32s linear infinite; /* Opera 12+ */
-            animation: myOrbit7 32s linear infinite; /* Chrome, Firefox 16+, 
+    -webkit-animation: myOrbit7 64s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbit7 64s linear infinite; /* Firefox 5-15 */
+       -ms-animation: myOrbit7 64s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbit7 64s linear infinite; /* Opera 12+ */
+            animation: myOrbit7 64s linear infinite; /* Chrome, Firefox 16+, 
                                                       IE 10+, Safari 5 */
     
     
@@ -462,11 +462,11 @@ border-radius:50%
     left: 52%;
     top: 54%;
 	z-index:-1
-    -webkit-animation: myOrbit8 36s linear infinite; /* Chrome, Safari 5 */
-       -moz-animation: myOrbit8 36s linear infinite; /* Firefox 5-15 */
-       -ms-animation: myOrbit8 36s linear infinite; /* Firefox 5-15 */
-         -o-animation: myOrbit8 36s linear infinite; /* Opera 12+ */
-            animation: myOrbit8 36s linear infinite; /* Chrome, Firefox 16+, 
+    -webkit-animation: myOrbit8 72s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbit8 72s linear infinite; /* Firefox 5-15 */
+       -ms-animation: myOrbit8 72s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbit8 72s linear infinite; /* Opera 12+ */
+            animation: myOrbit8 72s linear infinite; /* Chrome, Firefox 16+, 
                                                       IE 10+, Safari 5 */
     
     
